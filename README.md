@@ -6,19 +6,10 @@ A lightweight JavaScript script to automatically delete all chat threads from Fa
 
 ## 🔧 Technical Overview
 
-- Selects chats using anchor tags (`<a>`) with `href` starting with `/messages/t`
+- Selects chats using anchor tags (`<a>`) with `href` starting with `/messages/t` (change it in code according to Facebook update)
 - Locates chat containers via `role="row"`
 - Simulates human clicks on menu buttons and delete confirmations
 - Uses Promises and `setTimeout` for UI safety and timing
-
----
-
-## ✅ Features
-
-- Detects all chat threads (`/messages/t`)
-- Opens each chat's action menu
-- Clicks on "Delete chat" and confirms
-- Repeats until no deletable chats are left
 
 ---
 
